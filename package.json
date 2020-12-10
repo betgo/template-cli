@@ -1,0 +1,19 @@
+{
+  "name": "wxx-cli",
+  "version": "1.0.0",
+  "description": "web cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "struct": "bin/struct",
+    "struct-init": "bin/struct-init"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0"
+  }
+}
